@@ -17,8 +17,6 @@ module.exports = {
         settings: {},
         messages: {
             skip: ':skip',
-            max: '100',
-            min: '3',
             emptyWarning: 'can not be empty',
             upperLimitWarning: 'over limit',
             lowerLimitWarning: 'below limit'
