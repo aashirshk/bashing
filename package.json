@@ -4,6 +4,7 @@
         "types": [
           {
             "emoji": "🌟",
+            "code": "🌟",
             "description": "A new feature",
             "name": "feature"
           }
