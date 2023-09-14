@@ -4,11 +4,14 @@
         "types": [
           {
             "emoji": "🌟",
-            "code": "🌟",
+            "code": ":star2:",
             "description": "A new feature",
             "name": "feature"
           }
-        ]
+        ],
+        "cz-emoji": {
+            "symbol": true
+          }
       }
     }
   }
