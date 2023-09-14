@@ -9,7 +9,7 @@ module.exports = {
     // "header-max-length": [2, "always", 72],
   },
   prompt: {
-    alias: { fd: "docs: fix typos" },
+    alias: { fd: "docs: :memo: fix typos" },
     messages: {
       type: "Select the type of change that you're committing:",
       scope: "Denote the SCOPE of this change (optional):",
@@ -25,7 +25,7 @@ module.exports = {
       confirmCommit: "Are you sure you want to proceed with the commit above?"
     },
     types: [
-      { value: "feat", name: "feat:     ✨  A new feature", emoji: "✨" },
+      { value: "feat", name: "feat:     ✨  A new feature", emoji: ":sparkles:" },
       { value: "fix", name: "fix:      🐛  A bug fix", emoji: ":bug:" },
       { value: "docs", name: "docs:     📝  Documentation only changes", emoji: ":memo:" },
       { value: "style", name: "style:    💄  Changes that do not affect the meaning of the code", emoji: ":lipstick:" },
@@ -42,7 +42,7 @@ module.exports = {
     useAI: false,
     aiNumber: 1,
     themeColorCode: "",
-    scopes: ["a", "b"],
+    scopes: [],
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: "bottom",
