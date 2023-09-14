@@ -10,7 +10,7 @@
         "fix": {
           "description": "A bug fix",
           "title": "Bug Fixes",
-          "emoji": "🐛",
+          "emoji": "🐛"
         },
         "docs": {
           "description": "Documentation only changes",
