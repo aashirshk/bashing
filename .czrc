@@ -1,1 +1,1 @@
-{ "path": "@commitlint/cz-git", "useEmoji": true}
+{ "path": "cz-git"}
