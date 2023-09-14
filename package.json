@@ -1,5 +1,8 @@
 {
     "config": {
+    "commitizen": {
+        "path": "cz-emoji"
+        },
       "cz-emoji": {
         "types": [
           {
