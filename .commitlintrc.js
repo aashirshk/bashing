@@ -1,8 +1,12 @@
 // .commitlintrc.js
-/** @type {import('cz-git').UserConfig} */
 module.exports = {
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
+    // "type-enum": [2, "always", typesEnum],
+    // "scope-case": [2, "always", ["camel-case"]],
+    // "subject-empty": [2, "never"],
+    // "subject-case": [2, "always", ["lower-case"]],
+    // "header-max-length": [2, "always", 72],
   },
   prompt: {
     alias: { fd: "docs: fix typos" },
@@ -38,7 +42,7 @@ module.exports = {
     useAI: false,
     aiNumber: 1,
     themeColorCode: "",
-    scopes: [],
+    scopes: ["a", "b"],
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: "bottom",
