@@ -1,0 +1,6 @@
+{
+    
+    "scripts": {
+        "commit": "npx git-cz"
+      }
+}
